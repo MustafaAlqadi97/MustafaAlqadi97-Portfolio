@@ -396,7 +396,6 @@ ul{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    height: 110vh;
     padding: 100px 0;
     position: relative;
 }
