@@ -361,20 +361,12 @@ ul{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    height: 110vh;
     padding: 100px 0;
 }
 .skills .container .card{
     flex-basis: 30%;
     padding: 20px;
     text-align: center;
-    
-}
-@media (max-width:768px) {
-    .skills .container .card{
-        flex-basis: 50%;
-    }
-    
 }
 .skills .container .card:hover{
     transform: translateY(-10px);
@@ -387,6 +379,18 @@ ul{
 .skills .container .card i:hover{
     color: black;
     transition: 0.5s;
+}
+@media (max-width:768px) {
+    .skills .container .card{
+        flex-basis: 50%;
+    }
+    .skills .container .card i{
+        font-size: 45px;
+    }
+    .skills .container .card h3{
+        font-size: 15px;
+    }
+    
 }
 /* End Skills */
 
